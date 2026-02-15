@@ -1,0 +1,50 @@
+.eightday__box {
+    border-radius: 20px;
+width: 1140px;
+height: 554px;
+background: #e8e8e8;
+}
+
+.eightday__title {
+    font-family: var(--font-family);
+font-weight: 600;
+font-size: 16px;
+color: #000;
+text-align: start;
+margin-top: 25px;
+margin-left: 76px;
+}
+
+.eightday__list {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.eightday__item {
+    list-style: none;
+    border-radius: 10px;
+width: 986px;
+height: 47px;
+background: #d9d9d9;
+display: flex;
+align-items: center;
+justify-content: space-around;
+gap: 308px;
+}
+
+.eightday__desc {
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 16px;
+text-align: right;
+color: #000;
+}
+
+.eightday__info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
