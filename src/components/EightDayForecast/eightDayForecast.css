@@ -1,3 +1,7 @@
+.eightday {
+    padding: 80px 0;
+}
+
 .eightday__box {
     border-radius: 20px;
 width: 1140px;
@@ -11,7 +15,7 @@ font-weight: 600;
 font-size: 16px;
 color: #000;
 text-align: start;
-margin-top: 25px;
+padding-top: 25px;
 margin-left: 76px;
 }
 
@@ -26,14 +30,18 @@ margin-left: 76px;
 .eightday__item {
     list-style: none;
     border-radius: 10px;
-width: 986px;
-height: 47px;
-background: #d9d9d9;
-display: flex;
-align-items: center;
-justify-content: space-around;
-gap: 308px;
+    width: 986px;
+    height: 47px;
+    background: #d9d9d9;
+
+    display: flex;
+    align-items: center;
 }
+
+.eightday__item > * {
+    flex: 1;
+}
+
 
 .eightday__desc {
     font-family: var(--font-family);
@@ -43,8 +51,19 @@ text-align: right;
 color: #000;
 }
 
+.eightday__item > :first-child {
+    text-align: left;
+    padding-left: 20px;
+}
+
 .eightday__info {
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.eightday__item > :last-child {
+    text-align: right;
+    padding-right: 20px;
 }

@@ -1,13 +1,12 @@
 import { Header } from './components/Header/header';
 import { Hero } from './components/Hero/hero';
 import { Weather } from './components/Weather/weather';
-// import { PetsStories } from './components/PetsStories/petsStories';
-// import { Footer } from './components/Footer/footer';
-
+import { PetsStories } from './components/PetsStories/petsStories';
 import { FeelsLike } from './components/FeelsLike/feelslike';
 import { ForecastPrediction } from './components/ForecastPrediction/forecastPrediction';
 import { EightDayForecast } from './components/EightDayForecast/eightDayForecast';
 import MySlider from './components/PhotoGallery/photoGallery';
+import { Footer } from './components/Footer/footer';
 import './App.css';
 
 
@@ -18,9 +17,7 @@ function App() {
       <Header></Header>
       <Hero></Hero>
       <Weather></Weather>
-      {/* <PetsStories></PetsStories>
-      <PhotoGallery></PhotoGallery>
-      <Footer></Footer> */}
+      <PetsStories></PetsStories>
       <MySlider></MySlider>
       <FeelsLike></FeelsLike>
       <ForecastPrediction
@@ -28,6 +25,7 @@ function App() {
   temperatures={[14, 12, 11, 10, 10, 9, 11, 13, 14]}
 />
 <EightDayForecast></EightDayForecast>
+      <Footer></Footer>
 
     </div >
   );
