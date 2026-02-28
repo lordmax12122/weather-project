@@ -1,5 +1,5 @@
 import { Container } from "../Container/container";
-import styles from "./eightDayForecast.css";
+import "./eightDayForecast.css";
 
 export const EightDayForecast = () => {
     return (

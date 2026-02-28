@@ -5,10 +5,56 @@
   background-color: #fff;
 }
 
+.header__burger {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    @media screen and (max-width: 767px) {
+        display: flex;
+}
+
+}
+
+
+.header__logo {
+  width: 82px;
+height: 56px;
+
+@media screen and (max-width: 1200px) {
+        width: 54px;
+height: 36px;
+}
+@media screen and (max-width: 767px) {
+        width: 34px;
+height: 22px;
+    }
+}
+
+.header__logo2 {
+  width: 82px;
+height: 56px;
+display: none;
+
+@media screen and (max-width: 1200px) {
+        width: 54px;
+height: 36px;
+display: none;
+}
+@media screen and (max-width: 767px) {
+        width: 34px;
+height: 22px;
+display: block;
+    }
+}
+
+
 .header__div {
     display: flex;
     align-items: center;
     justify-content: center;
+    @media screen and (max-width: 767px) {
+       display: none;
+    }
 }
 
 .header__ul {
@@ -16,8 +62,44 @@
 flex-direction: row; 
 gap: 42px;
 margin-right: 519px;
-margin-left: 111px;
+
 list-style: none;
+@media screen and (max-width: 1200px) {
+margin-right: 168px;
+    }
+}
+
+.header__ul2 {
+list-style: none;
+text-align: start;
+margin: 0;
+padding: 0;
+}
+
+.header__mobile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__button2 {
+    display: none;
+    border: none;
+    background: none;
+    @media screen and (max-width: 767px) {
+        display: flex;
+        margin-left: 214px;
+    }
+}
+
+.header__part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-left: 173px;
 }
 
 .header__item {
@@ -25,6 +107,12 @@ list-style: none;
 font-weight: 500;
 font-size: 12px;
 color: #000; 
+@media screen and (max-width: 1200px) {
+        font-family: var(--second-family);
+font-weight: 500;
+font-size: 10px;
+color: #000;
+    }
 }
 
 .header__button {
@@ -39,4 +127,39 @@ font-weight: 500;
 font-size: 12px;
 color: #000;
 margin-right: 27px;
+
+@media screen and (max-width: 1200px) {
+        border-radius: 10px;
+padding: 8px 16px;
+width: 73px;
+height: 28px;
+font-family: var(--second-family);
+font-weight: 500;
+font-size: 10px;
+color: #000;
+    }
+}
+
+.header__button3 {
+border-radius: 10px;
+padding: 10px 20px;
+width: 89px;
+height: 35px;
+background: #ffb36c;
+border: none;
+font-family: var(--second-family);
+font-weight: 500;
+font-size: 12px;
+color: #000;
+
+@media screen and (max-width: 1200px) {
+        border-radius: 10px;
+padding: 8px 16px;
+width: 73px;
+height: 28px;
+font-family: var(--second-family);
+font-weight: 500;
+font-size: 10px;
+color: #000;
+    }
 }

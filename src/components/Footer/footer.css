@@ -8,6 +8,9 @@
 .footer__box {
     display: flex;
     gap: 103px;
+    @media screen and (max-width: 767px) {
+align-items: center;
+    }
 }
 
 .footer__logo {
@@ -33,7 +36,21 @@ height: 75px;
 text-align: start;
 }
 
+.footer__adress {
+    margin-right: 103px;
+    @media screen and (max-width: 767px) {
+        margin: 0;
+    }
+}
+
 .footer__contact {
     display: flex;
     gap: 10px;
+}
+
+.footer__block {
+    display: flex;
+    @media screen and (max-width: 767px) {
+flex-direction: column;
+    }
 }

@@ -1,6 +1,9 @@
 .pets {
     display: flex;
     flex-direction: column;
+    @media screen and (max-width: 1200px) {
+display: none;
+    }
 }
 
 .pets__button {

@@ -4,6 +4,9 @@
   height: 400px;
   margin: auto;
   padding: 80px 0 48px 0;
+  @media screen and (max-width: 1200px) {
+display: none;
+    }
 }
 
 .mySwiper .swiper-slide {

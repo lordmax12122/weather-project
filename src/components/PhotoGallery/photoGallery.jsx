@@ -5,7 +5,7 @@ import { Navigation, EffectCoverflow } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/effect-coverflow";
-import styles from "./photoGallery.css";
+import "./photoGallery.css";
 
 const images = [
   "/images/photo1.png",
