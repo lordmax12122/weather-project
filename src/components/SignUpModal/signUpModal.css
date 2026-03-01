@@ -1,0 +1,127 @@
+.sign__box {
+    border-radius: 25px;
+width: 600px;
+height: 534px;
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+background: #fff;
+}
+
+.sign__title {
+    font-family: var(--second-family);
+font-weight: 500;
+font-size: 28px;
+color: #000;
+}
+
+
+.sign__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.sign__block {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.sign__label {
+font-family: var(--font-family);
+font-weight: 500;
+font-size: 14px;
+color: #000;
+}
+
+.sign__input {
+    border-radius: 10px;
+width: 440px;
+height: 50px;
+background: #e4e4e4;
+font-family: var(--font-family);
+font-weight: 500;
+font-size: 14px;
+color: #ababab;
+border: none;
+}
+
+.sign__button {
+    border-radius: 10px;
+padding: 10px 30px;
+width: 114px;
+height: 37px;
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+color: #000;
+background: #ffb36c;
+border: none;
+}
+
+.sign__desc {
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 10px;
+color: #000;
+}
+
+.sign__span {
+   text-decoration: underline; 
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+}
+
+.modal__overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.modal__content {
+  position: relative;
+  width: 600px;
+  background: white;
+  border-radius: 25px;
+  padding: 40px;
+  margin: 100px auto;
+  z-index: 1001;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modal__close {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  border: none;
+  background: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}

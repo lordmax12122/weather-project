@@ -3,7 +3,7 @@
 
     align-items: center;
     justify-content: center;
-    background-image: url(../../../public/images/backgroundhero.png);
+    background-image: url(../../images/backgroundhero.png);
     width: 100%;
     background-size: cover;
 }
